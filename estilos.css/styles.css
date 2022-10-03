@@ -1,0 +1,38 @@
+.body{
+    background-image: url(../images/estrellas-1920.jpg);}
+
+.parrafo{
+    background-color: rgb(7, 190, 214);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    border-radius: 25px;
+    text-align: center;}
+
+.titulo-principal{
+    background-color: black ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    font-size: 500%; text-align: center ; color :white;
+    border-radius: 25px;}
+
+.container-titulo{
+    background-color:rgb(133, 6, 184); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 300%;
+    text-align: center;
+    border-radius: 30px;}
+
+.epigrafe{
+    font-size: 110% ; 
+    text-decoration: underline ;
+    background-color: black;
+    color :aliceblue ;
+    text-align: center;
+    border-radius: 50px;}
+
+.img-fluid{
+    border-radius: 25px;}
+
+.marcador{
+    background-color: yellow;
+    border-radius: 25px;}
+   

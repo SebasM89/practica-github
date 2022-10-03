@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La De Messi</title>
+</head>
+<body>
+    <html>
+    <head>
+       <h1>Pagina Falopa</h1>
+     <style>  
+       table, th, td 
+        {
+        border: 1px solid black;
+        }
+     </style>
+    </head>
+    <form method="post" action="tratamiento.php">
+        <p>
+            <label for="username">Usuario:</label>
+            <input type="text" name="username" id="username" placeholder="username" size="30" maxlength="10"/>
+            
+            <br />
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass" placeholder="password" />
+        </p>
+    </form>
+    <h2>Por algun lado se comienza</h2>
+
+        <p>Aca andamos, con el <mark>firme deseo de hacer las cosas mejor que ayer y peor que 
+        mañana</mark>, <strong>con la misma conviccion que el primer dia</strong>, y <em>con el corazon en la mano
+         siempre mirando hacia adelante</em>.</p> 
+    <img src="images/Craneo de Balerion El Terror Negro.webp" alt="Craneo de Balerion" title="Escena de House Of The Dragon"><footer>Craneo de Balerion el Terror Negro</footer></img>    
+    
+    <ol>
+        <li>13 de enero de 1933 Hitler asume como canciller.</li>
+        <li>1 de septiembre de 1939 invade polonia.</li>
+        <li>10 de mayo de 1940 alemania invade paises bajos, belgica y francia.</li>
+        <li>10 de julio de 1940 incia la batalla de inglaterra.</li>
+        <li>22 de junio de 1941 inicio de la invasion a la union sovietica.</li>     
+    </ol>
+    <br>
+    <p>Lista de pasajeros</p>
+    <table>
+       <thead>    
+        <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>País</th>
+       </tr>
+      </thead> 
+      <tbody>
+       <tr>
+        <td>José Mujica</td>
+        <td>65 años</td>
+        <td>Uruguay</td>
+       </tr>
+       
+       <tr>
+        <td>Angela Garcia</td>
+        <td>45 años</td>
+        <td>Nicaragua</td>
+       </tr>
+       
+       <tr>
+        <td>Sebastian Moreno</td>
+        <td>33 años</td>
+        <td>Argentina</td>
+       </tr>
+      </tbody>
+
+       <tfoot>
+       <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>País</th>
+       </tr>
+      </tfoot>
+    </table>
+    <br>
+<p>Tabla de peliculas disponibles</p>
+    <table>
+       
+        <tr>
+        <th>peliculas</th>
+        <td>El Conjuro</td>
+        <td>Frozen</td>
+        <td>El Hobitt</td>
+        </tr>
+
+        <tr>
+            <th>Para Niños</th>
+            <td>No,muy violenta</td>
+            <td>Si, apropiada</td>
+            <td rowspan="2">Apta para toda la familia</td>
+        </tr>
+        <tr>
+            <th>Para Adolescentes</th>
+            <td>Si</td>
+            <td>No hay violencia suficiente</td>
+        </tr>
+    </table>
+    <br>
+    <p>Aqui puede escribir cualquier inquietud que tenga</p>
+
+    <form method="post" action="tratamiento.php">
+        <p>
+            <label for="mejora">¿Cómo crees que podria mejorar mi página web?</label><br>
+            <textarea name="mejora" id="mejora" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+    <p>que pase el que sigue</p>
+    <br>
+    <form method="post" action="tratamiento.php">
+        <p>
+            Marca las comidas que te gustan:<br />
+            <input type="checkbox" name="Asado" id="Asado" /> 
+            <label for="Asado">Asado</label> <br />
+            <input type="checkbox" name="Milanesa Napolitana" id="Milanesa Napolitana" />
+            <label for="Milanesa Napolitana">Milanesa Napolitana</label> <br />
+            <input type="checkbox" name="Rabas" id="Rabas" />
+            <label for="Rabas">Rabas</label> <br />
+        </p>
+    </form>
+    <br>
+    <form action="tratamiento.php" method="post">
+        <p>
+            Indica el grupo de edad al que perteneces: <br />
+            <input type="radio" name="edad" value="menos15" id="menos15" /> 
+            <label for="menos15">Menos de 15 años</label> <br />
+            <input type="radio" name="edad" value="entre15-25" id="entre15-25" /> 
+            <label for="entre15-25">Entre 15 y 25 años</label> <br />
+            <input type="radio" name="edad" value="entre25-40" id="entre25-40" /> 
+            <label for="entre25-40">Entre 25 y 40 años</label> <br />
+            <input type="radio" name="edad" value="entre40-50" id="entre40-50" /> 
+            <label for="entre40-50">Entre 40 y 50 años</label> <br /> 
+            <input type="radio" name="edad" value="entre50-60" id="entre50-60" /> 
+            <label for="entre50-60">Entre 50 y 60 años</label> <br />
+            <input type="radio" name="edad" value="mas60" id="mas60" />
+            <label for="mas60">¿Incluso mayor que eso?</label> <br />
+        </p>
+    </form>    
+        <br>
+        <form action="tratamiento.php" method="post">
+            <p>
+                <label for="pais">¿En qué país vives?</label><br />
+                <select name="pais" id="pais">
+                    <option value="estadosunidos">Estados Unidos</option>
+                    <option value="canada">Canadá</option>
+                    <option value="reinounido">Reino Unido</option>
+                    <option value="francia">Francia</option>
+                    <option value="china">China</option>
+                    <option value="rusia">Rusia</option>
+                    <option value="alemania">Alemania</option>
+                    <option value="italia">Italia</option>
+                    <option value="españa">España</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="japon">Japón</option>
+                </select>
+            </p>
+        </form>
+        <br>
+        <form action="tratamiento.php" method="post">
+            <fieldset>
+                <legend>Tus datos de contacto</legend>
+
+                <label for="apellidos">¿Cuáles son tus apellidos?</label></br>
+                <input type="text" name="apellido" id="apellido"/></br>
+                
+                <label for="nombre">¿Cuál es tu nombre?</label></br>
+                <input type="text" name="nombre" id="nombre"/></br>
+
+                <label for="email">¿Cuál es tu dirección de correo electrónico?</label></br>
+                <input type="text" name="email" id="email"/></br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Tu deseo</legend>
+
+                <p>
+                    Pide un deseo que quieres que se haga realidad:</br>
+
+                    <input type="radio" name="deseo" value="rico" id="rico" />
+                    <label for="rico">Ser rico</label></br>
+                    
+                    <input type="radio" name="deseo" value="famoso" id="famoso" />
+                    <label for="famoso">Ser famoso</label></br>
+
+                    <input type="radio" name="deseo" value="inteligente" id="intelingente" />
+                    <label for="inteligente">Ser <strong>aún más</strong> inteligente</label></br>
+
+                    <input type="radio" name="deseo" value="otro" id="otro" />
+                    <label for="otro">Otro...</label>
+                </p>
+
+                <p>
+                    <label for="specs">Si has elegido Otro, esécifica cuál:</label></br>
+                    <textarea name="specs" id="specs" cols="40" rows="4"></textarea>
+                </p>
+            </fieldset>
+
+            <input type="submit">
+
+        </form>
+    
+</body>
+</html>
